@@ -34,18 +34,30 @@
 //   let input_data = [1, 2, 3, 4, 5];
 //   console.log(input_data); // [11,12,13,14,15]
 // }
+<<<<<<< HEAD
 
 let input_data = [1, 2, 3, 4, 5];
 
 for (let i = 0; i < input_data.length; i++) {
   console.log(input_data[i] + 10);
 }
+=======
+
+// let input_data = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < input_data.length; i++) {
+//   console.log(input_data[i] + 10);
+// }
+>>>>>>> f0d969781fbbfab0511dca3581cef88e4319a426
 
 // {
 //   // forEach 사용
 //   let input_data = [10, 20, 30, 40, 50];
 //   console.log(input_data); // [5, 10, 15, 20, 25]
 // }
+let input_data = [10, 20, 30, 40, 50];
+input_data.forEach((element) => {});
+console.log();
 
 // {
 //   // map 사용
