@@ -1,6 +1,6 @@
 // Array
 
-// 문제1
+// 문제1 (완성)
 // let input_data = ["웹페", "이지", "단순", "한보", "조기"];
 // input_data.splice(2, 4);
 // console.log(input_data);
@@ -9,7 +9,7 @@
 // console.log(output_data); // 웹페이지
 //   output = 웹페이지
 
-// 문제2
+// 문제2 (미완)
 // let input_data = ["웹페", "이지", "단순", "한보", "조기"];
 // input_data.splice(0, 2);
 // console.log(input_data);
@@ -17,7 +17,7 @@
 // let output_data = input_data.push("화보");
 // console.log(output_data); // ["단순", "화보"]
 
-// 문제3
+// 문제3 (완성)
 // {
 //   let input_data = [1, 2, 3, 4, 5];
 //   console.log(output_data); // 5
@@ -34,17 +34,21 @@
 //   let input_data = [1, 2, 3, 4, 5];
 //   console.log(input_data); // [11,12,13,14,15]
 // }
-let input_data = [1, 2, 3, 4, 5];
 
-for (i = 0; i < input_data.length; i++) {
-  console.log(input_data[i] + 10);
-}
+// let input_data = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < input_data.length; i++) {
+//   console.log(input_data[i] + 10);
+// }
 
 // {
 //   // forEach 사용
 //   let input_data = [10, 20, 30, 40, 50];
 //   console.log(input_data); // [5, 10, 15, 20, 25]
 // }
+let input_data = [10, 20, 30, 40, 50];
+input_data.forEach((element) => {});
+console.log();
 
 // {
 //   // map 사용
