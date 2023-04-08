@@ -9,15 +9,15 @@
 
 function solution(bae) {
   let d = parseInt(bae); // parseInt는 문자열을 정수로 반환해주는 메소드
-
   return d; // 타입을 확인할거면 typeof사용하기
 }
-function parse() {}
+function parse() {
+  main();
+}
 function main() {
   let c = 123;
-  solution(c);
+  let e = solution(c); // 문자열 123
   const a = 10;
-  let e = 200;
   return e;
 }
 console.log(main());
