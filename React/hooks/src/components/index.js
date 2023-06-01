@@ -1,5 +1,10 @@
 import Bank from "./useReducer";
 function User() {
-  return <Bank />;
+  return (
+    <>
+      <Bank />;
+      <useReducer2 />
+    </>
+  );
 }
 export default User;
